@@ -1,0 +1,71 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+}
+.world{
+    width: 1100px;
+    height: 750px;
+    margin: auto;
+    margin-top: 20px;
+    background-image: url(../img/map.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.side{
+    width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: white;
+}
+.side__block{
+    margin: 0px;
+    padding: 5px;
+    width: 350px;
+    height: 350px;
+    
+}
+.title{
+margin-top: 15px;
+margin-bottom: 15px;
+text-align: center;
+}
+.side__block--all{
+    margin: 0px 15px 25px 15px;
+    height: 230px;
+    width: 300px;
+    background: rgba(0, 0, 0, 0.199);
+}
+.side__block--tittle{
+    display: flex;
+    text-align: center;
+}
+.countryname{
+    margin: 10px;
+    text-align: center;
+}
+.side__block--city{
+width: 150px;
+display: flex;
+flex-wrap: wrap;
+margin-top: 60px;
+}
+.usa{
+    background: #144c75b0;
+}
+.europe{
+    background: rgba(241, 50, 231, 0.397) ;
+}
+.asia{
+    background: rgba(255, 0, 0, 0.432);
+}
+.none{
+    background: #144c75b0 ;
+}
+.africa{
+    background: rgba(255, 255, 0, 0.459);
+}
+.australia{
+    background: rgba(255, 166, 0, 0.466);
+}
