@@ -1,0 +1,49 @@
+@import "./vars";
+.body{
+    margin: 0px;
+    padding: 0px;
+}
+.world{
+    width: $pageWidth;
+    height: $pageHeight;
+    margin: auto;
+    margin-top: 20px;
+    background-image: url(../img/map.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.side{
+    width: $pageWidth;
+    @include flex(flex-wrap);
+    justify-content: space-around;
+    color: white;
+}
+&__block{
+    @include style(0,5,350,350);
+}
+.title{
+margin-top: 15px;
+margin-bottom: 15px;
+text-align: center;
+}
+&--all{
+    margin: 0px 15px 25px 15px;
+    height: 230px;
+    width: 300px;
+    background: rgba(0, 0, 0, 0.199);
+}
+&--tittle{
+    display: flex;
+    text-align: center;
+}
+.countryname{
+    margin: 10px;
+    text-align: center;
+}
+&--city{
+width: 150px;
+@include flex(flex-wrap);
+margin-top: 60px;
+}
+@import "./bg-country";

@@ -1,0 +1,11 @@
+@mixin flex($fw) {
+    display: flex;
+    flex-wrap: $fw ;
+};
+@mixin style($m,$p,$w,$h,) {
+    margin: $m;
+    padding: $p;
+    width: $w;
+    height: $h;
+}
+;
