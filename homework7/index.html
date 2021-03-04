@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Junior Web</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="resume">
+        <div class="resume__title">
+            <div class="resume__title-main">
+                <h1>Приветствуем!</h1>
+            </div>
+            <div class="resume__title-submain">
+                <h2>Предлагаем Вам заполнить анкету,что бы узнать о вас больше.</h2>
+            </div>
+            <div class="resume__title-text">
+                <h3> Заполните все формы и мы с вами свяжемся!</h3>
+            </div>
+        </div>
+        <div class="resume__main">
+            <form class="resume__main-form" action="#" method="POST">
+                <fieldset class="resume__main-form first" >
+                    <h3>О себе</h3>
+                    <label>
+                        <input type="text" placeholder="Имя" name="firstname" required> 
+                    </label>
+                    <label >
+                        <input type="text" placeholder="Фамилия" name="secondname" required>
+                    </label>
+                    <label>
+                        <input type="date" placeholder="Дата рождения" name="date" required>
+                    </label>
+                </fieldset>
+                <fieldset class="resume__main-form second">
+                    <h3>Навыки</h3>
+                    <p>Выберите ваши умения и оцените их(от 1 до 10)</p>
+                    <label >
+                        <h4>html/css</h4>
+                        <input type="checkbox" name="html">
+                        <input type="range" min="0" max="10" name="html_range" > 
+                    </label>
+                    <label>
+                        <h4>js</h4>
+                        <input type="checkbox" name="js">
+                        <input type="range" min="0" max="10" name="js_range" >
+                    </label>
+                </fieldset>
+                <fieldset class="resume__main-form third">
+                    <h3>Дополнительные навыки</h3>
+                    <textarea name="subskills" placeholder="Ваши дополнительные навыки(необязательно)" cols="50" rows="10"></textarea>
+                </fieldset>
+                <fieldset class="resume__main-form fourth" > 
+                    <h3>Контакты</h3>
+                    <label>
+                        <h4>Номер телефона</h4>
+                        <input type="tel" pattern="[0-9]{8,11}" name="number" required placeholder="380XXXXXXXXX" >
+                    </label>
+                    <label>
+                        <h4>Почта</h4>
+                        <input type="email" name="email" required placeholder="example@email.com">
+                    </label>
+                </fieldset>
+                <button class="submit" type="submit">Отправить</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
