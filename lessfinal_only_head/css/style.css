@@ -1,0 +1,79 @@
+.container-fluid {
+  background: -webkit-gradient(linear, left top, left bottom, from(#121619), color-stop(#242d33), color-stop(#111619), color-stop(#191f23), to(#111619));
+  background: -webkit-linear-gradient(top, #121619, #242d33, #111619, #191f23, #111619);
+  background: -o-linear-gradient(top, #121619, #242d33, #111619, #191f23, #111619);
+  background: linear-gradient(180deg, #121619, #242d33, #111619, #191f23, #111619);
+}
+
+p {
+  color: gray;
+}
+
+.header__info-tenx {
+  width: 100px;
+}
+
+.header__info-phone {
+  padding-left: 7rem;
+}
+
+.header__info-number {
+  width: 200px;
+}
+
+.hero__write-who {
+  text-transform: uppercase;
+  font-size: 12px;
+  -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
+  position: absolute;
+  right: -40px;
+  top: 50%;
+  letter-spacing: .3em;
+  width: 10%;
+}
+
+.hero__write-what {
+  text-transform: uppercase;
+  font-size: 12px;
+  -webkit-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  position: absolute;
+  left: -40px;
+  top: 43%;
+  letter-spacing: .3em;
+  width: 10%;
+  color: darkviolet;
+}
+
+.nav-link {
+  color: gray;
+}
+
+.hero__write-your {
+  text-align: center;
+  letter-spacing: 2rem;
+  font-family: serif;
+  font-size: 2rem;
+}
+
+.hero__bottom-text {
+  text-align: center;
+  font-family: serif;
+  font-size: 4rem;
+}
+
+.hero__bottom-auto {
+  margin: 0 auto 100px;
+  width: 100px;
+  height: 100px;
+  display: block;
+}
+
+.top__block1 {
+  margin-bottom: 100px;
+  padding-top: 50px;
+}
+/*# sourceMappingURL=style.css.map */
